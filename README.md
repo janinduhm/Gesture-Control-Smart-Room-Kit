@@ -42,7 +42,7 @@ that makes them smart without any re-wiring.
 ```
 Phone (Shake it app)
   ├── Gesture (shake/accelerometer)  ─┐
-  ├── Voice command                   ├─── WiFi ──► Arduino NANO + Relay Modules ──► Lights / Fan
+  ├── Voice command                   ├─── WiFi ──► NodeMCU (ESP8266) + Relay Modules ──► Lights / Fan
   └── Manual key input               ─┘
                                            └──► Smart IR Converter ──► TV / AC
 ```
@@ -50,7 +50,7 @@ Phone (Shake it app)
 1. User installs the **"Shake it"** Android app on their phone.
 2. The app reads the phone's built-in accelerometer — a shake gesture triggers
    a command; voice and manual key inputs are also supported.
-3. The command is sent over WiFi to an Arduino NANO with a WiFi module.
+3. The command is sent over WiFi to a NodeMCU (ESP8266).
 4. For lights and the fan: the Arduino drives relay modules wired into the
    Smart Holder and Smart Regulator.
 5. For TV and AC: the Arduino drives the Smart IR Converter, which replays
@@ -60,8 +60,7 @@ Phone (Shake it app)
 
 | Component | Qty | Purpose |
 |---|---|---|
-| Arduino NANO | 1 | Central controller |
-| WiFi Module | 4 | WiFi communication |
+| NodeMCU (ESP8266) | 1 | Central controller with built-in WiFi |
 | Relay Module | 4 | Switching for lights and fan |
 | Fan Regulator | 1 | Smart fan speed control |
 
@@ -101,6 +100,6 @@ The app also supports remote mapping of IR codes for new TV/AC models.
 
 ## Source code
 
-The original firmware (Arduino NANO) and Android app source were not
-preserved after the project concluded. This repository documents the
-hardware architecture, system design, and exhibition results.
+The original NodeMCU (ESP8266) firmware and Android Studio app source
+were not preserved after the project concluded. This repository documents
+the hardware architecture, system design, and exhibition results.
