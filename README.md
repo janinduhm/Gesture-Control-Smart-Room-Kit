@@ -95,9 +95,9 @@ The app also supports remote mapping of IR codes for new TV/AC models.
 
 - **7th place** — Innovation, Invention, and Venture Creation Council
   (IIVCC) Competition, Robotics and Embedded Systems category
-- Exhibited at **Innovate** (Faculty of Engineering, University of Sri
-  Jayewardenepura)
-- Exhibited at the **Sri Lanka Inventors Commission** national exhibition
+- Exhibited at **Innovate Sri Lanka** — Innovation & Invention Exhibition
+  2019, University of Sri Jayewardenepura
+- Exhibited at **Shilpa Sena 2019** — Sri Lanka Inventors Commission
 
 ## Source code
 
